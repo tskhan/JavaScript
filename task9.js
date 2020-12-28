@@ -1,0 +1,13 @@
+var a = parseInt(prompt("Enter 1st no.","0"),10);
+var b = parseInt(prompt ("Enter 2nd no.","0"),10);
+s = a - b;
+m = a * b;
+d = a / b;
+md = a % b;
+document.write("Difference of " + a + " and " + b + " is " + s);
+document.write("<br />");
+document.write("Product of " + a + " and " + b + " is " + m);
+document.write("<br />");
+document.write("Division of " + a + " by " + b + " is " + d);
+document.write("<br />");
+document.write("Remainder of " + a + " divide by " + b + " is " + md);
